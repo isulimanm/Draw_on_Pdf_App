@@ -9,6 +9,7 @@ material = "1.13.0"
 activity = "1.11.0"
 constraintlayout = "2.2.1"
 pdfboxAndroid = "2.0.27.0"
+graphicsPath = "1.0.1"
 
 [libraries]
 android-pdf-viewer = { module = "io.github.oothp:android-pdf-viewer", version.ref = "androidPdfViewer" }
@@ -20,6 +21,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 pdfbox-android = { module = "com.tom-roush:pdfbox-android", version.ref = "pdfboxAndroid" }
+graphics-path = { group = "androidx.graphics", name = "graphics-path", version.ref = "graphicsPath" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
